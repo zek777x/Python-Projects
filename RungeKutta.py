@@ -29,7 +29,7 @@ def rungeKutta(x0, y0, x, h):
         print("y",i," is ",y,sep="")
         print()
  
-        # Update next value of x
+        # Update next value of (x)
         x0 = x0 + h
     return y
  
